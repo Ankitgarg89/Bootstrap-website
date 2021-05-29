@@ -1,0 +1,183 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    min-height: 600px;
+    position: relative;
+}
+
+#myheading{
+    font-family: Montserrat 900;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-top: 50px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.download-button {
+    margin: 50px 5px 0px 15px;
+}
+
+.iphone{
+    transform: rotate(25deg);
+    width: 60%;
+    margin-top: 30px;
+    right: 30%;
+    position: absolute;
+}
+
+/* navigation bar */
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.nav-item{
+    padding: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: ubuntu;
+}
+
+
+/* features section */
+
+#features{
+    text-align: center;
+    background-color: white;
+    padding: 7% 14%;
+    position: relative;
+}
+
+.icon{
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+h3{
+    font-family: ubuntu;
+    font-weight: bolder;
+}
+.features_para{
+    padding: 5% 15%;
+    color: rgb(129, 127, 129);
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+h2{
+    color: white;
+    font-family: montserrat 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testlogo{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 2%;
+}
+.press-logo{
+    width: 15%;
+    margin: 10px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-head{
+    color: black;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* call to action section */
+
+#cta{
+    background-color:#ff4c68 ;
+    text-align: center;
+    padding: 7% 15%;
+}
+#cta h3{
+    color: white;
+    font-family: montserrat 900;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#cta button{
+    margin: 70px 20px 0px 20px;
+    padding:10px auto ;
+}
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    padding: 7% 15% 5%;
+}
+
+.footer-icon{
+    padding: 15px;
+    color: black;
+}
+
+
+/* media queries */
+
+@media (max-width:1060px){
+
+#title{
+    text-align:center;
+}
+.iphone{
+    position: static;
+    transform: rotate(0);
+}
+}
+
+@media (max-width:990px)
+{
+    .iphone{
+        height: 600px;
+        width: 300px;
+    }
+}
